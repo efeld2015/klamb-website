@@ -110,7 +110,7 @@ p {
 
 input {
   font-size: 16px;
-  width: 50%;
+  /* width: 50%; */
   display: flex;
   justify-content: center;
   padding: 10px;
@@ -120,10 +120,17 @@ input {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-div .input-field {
+.input-field {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
+
+/*TODO: add width, padding to bob class, style footer with icon */
+.bob {
+
+}
+
 #name-label,
 #email-label,
 #subject-label,

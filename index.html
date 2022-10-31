@@ -23,7 +23,8 @@
     <!--About-->
 
     <!--Portrait-->
-    <img id="about-img"
+    <img
+      id="about-img"
       src="https://scontent-msp1-1.xx.fbcdn.net/v/t39.30808-6/259520339_10220220714964761_1129686051773770078_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0debeb&_nc_ohc=1RfUqGSp5_YAX_jlXXr&_nc_ht=scontent-msp1-1.xx&oh=00_AfBll6eH0GNAymyeuApD8Wf5Iwnuz7FNjDgx0YblPd8gng&oe=63634189"
       alt="Kyle in a navy suit and pink bow tie sitting on steps"
       width="500"
@@ -78,9 +79,12 @@
         <hr color="white" width="50" />
         <h2 class="text">Contact me</h2>
         <hr color="white" width="50" />
-        <label id="name-label" for="name">Name</label>
+        
 
         <div class="input-field">
+          <div class="bob"> 
+            <label id="name-label" for="name">Name</label>
+
           <input
             type="text"
             id="name"
@@ -88,15 +92,20 @@
             placeholder="First"
             required
           />
+
+          </div>
+
+          <div class="bob">
+          <label for='last-name'></label>
           <input
             type="text"
-            id="name"
+            id="last-name"
             class="form-control"
             placeholder="Last"
             required
           />
+</div>
 
-          <br />
 
           <label id="email-label" for="email">Email Address</label>
 
@@ -108,8 +117,6 @@
             required
           />
 
-          <br />
-
           <label id="subject-label" for="subject">Subject</label>
 
           <input
@@ -120,8 +127,6 @@
             required
           />
         </div>
-
-        <br />
 
         <label id="message-label" for="message">Message</label>
 
